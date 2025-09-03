@@ -1,12 +1,18 @@
 # =========================
 # Node / Next.js / Build
 # =========================
-node_modules
+node_modules/
 .next/
 out/                 # Next.js static export output
 dist/                # Backend build output
 build/
 coverage/
+
+# =========================
+# Backend build + deps
+# =========================
+backend/dist/
+backend/node_modules/
 
 # =========================
 # Logs / Debug
